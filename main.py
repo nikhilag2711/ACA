@@ -3,9 +3,11 @@ import os
 import numpy as np
 from PIL import Image
 from operator import itemgetter
-
+# Hello
 
 path = "train1"
+
+
 folder_names = [name for name in os.listdir(path) if os.path.isdir(os.path.join(path, name))]
 #print(folder_names)
 
